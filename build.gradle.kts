@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "es.unizar.webeng"
-version = "2024-SNAPSHOT"
+version = "2025-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -22,6 +22,7 @@ dependencies {
     implementation(libs.spring.boot.starter.web)
     implementation(libs.spring.boot.starter.thymeleaf)
     implementation(libs.spring.boot.starter.data.jpa)
+    implementation(libs.kotlin.reflect)
 
     runtimeOnly(libs.h2database.h2)
 
